@@ -1,0 +1,103 @@
+.nav-bar {
+  width: 100%;
+  height: 75px;
+  background-color: #008B78;
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+.logo {
+  margin: 0;
+}
+
+.container-container {
+  text-align: center;
+}
+
+.tweet-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+  color: #333;
+  padding-bottom: 2em;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.tweet-container:not(:last-child) {
+  margin-right: 40px;
+}
+
+.hashtag-holder {
+  text-align: center;
+  border: 3px solid #008B78;
+}
+
+.tweet {
+  padding: 16px 5px;
+  border-bottom: 1px dashed #bbb;
+}
+
+.tweet:hover{
+  background: #eee;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.user-handle {
+  color: #008B78;
+  font-size: 13px;
+}
+
+.input-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+}
+
+input.wide {
+  width: 100%;
+  height: 74px;
+  font-size: 24px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+.item-delete {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+  color: #008B78;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item-delete:hover {
+  color: #bbb;
+}
+
+/*================
+//////////////////
+==================
+  MEDIA QUERIES
+=================
+//////////////////
+=================*/
+
+@media (min-width: 600px) {
+  .tweet-container {
+    width: 25%;
+  }
+
+  .input-container {
+    width: 25%;
+  } 
+}
